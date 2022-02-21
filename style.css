@@ -6,19 +6,6 @@
   body {
     background-color: rgb(113, 175, 233);
   }
-  
-  
-  .sun {
-    width: 200px;
-    margin-top: 50px;
-    margin-left: 50px;
-    position: relative;
-    animation-name: rotating-sun;
-    animation-duration: 5s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-  }
-  
   @keyframes rotating-sun {
     0% {
       transform: rotate(0deg);
@@ -76,6 +63,7 @@
   body {
     background-color: rgb(17, 29, 39);
   }
+
   
   @keyframes rotating-sun {
     0% {
@@ -85,7 +73,7 @@
       transform: rotate(100deg);
     }
   }
-  .car {
+  .yellow {
     width: 400px;
     position: absolute;
     animation-name: left-anim;
@@ -106,7 +94,7 @@
     }
   }
   
-  .car1 {
+  .green {
     width: 400px;
     position: absolute;
     animation-name: right-anim;
